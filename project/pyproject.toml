@@ -2,3 +2,10 @@
 tortoise_orm = "app.db.TORTOISE_ORM"
 location = "./migrations"
 src_folder = "./."
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = 'black'
+line_length = 120
